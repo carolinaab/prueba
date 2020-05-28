@@ -58,7 +58,7 @@ export const useStyles = makeStyles(theme => ({
 
     },
     link: {
-        color: "#f7484e",
+        color: "#ffff",
         textDecoration: "none",
         fontSize: 18
     },
@@ -156,9 +156,9 @@ export const useStyles = makeStyles(theme => ({
     },
     paper: {
         padding: theme.spacing(3),
-        boxShadow: '2px 5px 5px 4px rgba(247,72,78, 0.9)',
         borderRadius: '0px 0px 40px 0px'
     },
+  
     foto:{
         borderRadius: '0px 0px 50px 0px',
         width:250
@@ -173,5 +173,17 @@ export const useStyles = makeStyles(theme => ({
               height:"20vh",
               paddingBottom:50
           }
+      },
+      cv:{
+          fontWeight:700,
+          fontSize:20,
+          marginTop:10,
+          '& a':{
+              textDecoration:"none",
+              color:'#f7484e',
+         },
+         [theme.breakpoints.down("xs")]:{
+            marginBottom:10
+        }
       }
 }));

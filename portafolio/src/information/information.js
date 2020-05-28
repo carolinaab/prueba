@@ -28,13 +28,12 @@ export const projectImages = [
         github:"https://github.com/carolinaab/MEX008-labcar"
     },
       {
-        url: require('../assets/pandemonium.png'),
-        title: 'Github',
+        url: require('../assets/between.png'),
+        // title: 'Github',
         link: 'Ver',
         width: '100%',
         description:"Proyecto en etapa de diseño. Red social para niños la cual búsca conectarlos, para compartir fotos, videos o tareas pendientes",
-        figma:"enlace",
-        page: "https://gbarcenav.github.io/MEX-Data-Lovers-008/src/",
-        github:"https://github.com/carolinaab/MEX-Data-Lovers-008"
+        page:'https://docs.google.com/document/d/1ReufIWDmFXUDYAJKkGMwoDeC10AIX0jyx0r89l37AnQ/edit'
+        // github:"https://github.com/carolinaab/MEX-Data-Lovers-008"
     },
 ]

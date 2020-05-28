@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Grid, Typography, Box, Avatar, Button, Paper, Divider } from '@material-ui/core'
+import { Grid, Typography, Box, Paper} from '@material-ui/core'
 import { useStyles } from './style'
 import Navbar from './navbar'
 import photo from '../assets/foto-caro.jpg'
@@ -36,6 +36,8 @@ export const Landing = () => {
 
 
             </Grid>
+
+            {/* About */}
             <Grid container justify="center" alignItems="center" className={classes.about} id="about">
                 <Grid item xs={12} md={6}>
                     <Grid container justify="center" spacing={2}>
@@ -80,9 +82,9 @@ export const Landing = () => {
                     </Grid>
                 </Grid>
             </Grid>
-            {/* Proyectos */}
+          
+            {/* Projects */}
             <Grid container justify="center" alignItems="center" className={classes.project} id="projects">
-
                 <Box p={3}>
                     <Grid container spacing={2}>
                         <Card
@@ -90,11 +92,10 @@ export const Landing = () => {
                         />
                     </Grid>
                 </Box>
+              </Grid>
 
-
-            </Grid>
-
-            {/* Contacto */}
+            
+            {/* Contact */}
             < Grid container justify="center" alignItems="center" className={classes.contactCard} id="contact">
 
                 <Grid item xs={12} md={6}>
@@ -106,10 +107,10 @@ export const Landing = () => {
                     </Grid>
                 </Grid>
                 <Grid item xs={12} md={6}>
-                    <Grid container justify="center">
+                    <Grid container justify="center" >
                         <Grid item xs={11} md={8} >
-                            <Paper className={classes.paper}>
-                                <Grid container justify="center" alignItems="center" spacing={2}>
+                            <Paper className={classes.paper} elevation={8}>
+                                <Grid container justify="center" alignItems="center" spacing={1}>
                                     <Grid item xs={12} sm={4} style={{borderRight:"2px solid #f7484e"}}>
                                         <img width="100px" src={logo}></img>
 
@@ -120,13 +121,13 @@ export const Landing = () => {
                                         <Typography align="left" variant="body1"><LinkedInIcon />&nbsp;Carolina Méndez</Typography>
                                         <Typography align="left" variant="body1"><PhoneAndroidIcon/>&nbsp;5580867630</Typography>
                                         <Typography  align="left" variant="body1"><EmailIcon/>&nbsp;tau_karo@hotmail.com</Typography>
-
-                                      
-                                    </Grid>
+                                 </Grid>
                                 </Grid>
                             </Paper>
                         </Grid>
-
+                        <Grid item xs={11} md={8} >
+                           <Typography className={classes.cv}> <a target="_blank" href="https://drive.google.com/file/d/1KxgjDPiBlo7cS8Rk6ewIK-9jdu-i0g-w/view?usp=sharing">Ver CV</a></Typography>
+                            </Grid>
                     </Grid>
 
                 </Grid>
