@@ -1,16 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/navbar'
+import {Landing} from './components/landing'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          hola        </p>
-
-
-      </header>
+      <Landing/>
+    
     </div>
   );
 }
