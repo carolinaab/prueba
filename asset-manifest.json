@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/carolinaab.github.io/static/css/main.5f361e03.chunk.css",
-    "main.js": "/carolinaab.github.io/static/js/main.0d25b6c0.chunk.js",
-    "main.js.map": "/carolinaab.github.io/static/js/main.0d25b6c0.chunk.js.map",
-    "runtime-main.js": "/carolinaab.github.io/static/js/runtime-main.4b6c1507.js",
-    "runtime-main.js.map": "/carolinaab.github.io/static/js/runtime-main.4b6c1507.js.map",
-    "static/js/2.9681c2b5.chunk.js": "/carolinaab.github.io/static/js/2.9681c2b5.chunk.js",
-    "static/js/2.9681c2b5.chunk.js.map": "/carolinaab.github.io/static/js/2.9681c2b5.chunk.js.map",
-    "index.html": "/carolinaab.github.io/index.html",
-    "precache-manifest.345d0a6f159fc59a8e98c46cca51a8c8.js": "/carolinaab.github.io/precache-manifest.345d0a6f159fc59a8e98c46cca51a8c8.js",
-    "service-worker.js": "/carolinaab.github.io/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/carolinaab.github.io/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.9681c2b5.chunk.js.LICENSE.txt": "/carolinaab.github.io/static/js/2.9681c2b5.chunk.js.LICENSE.txt",
-    "static/media/data-lovers.png": "/carolinaab.github.io/static/media/data-lovers.9e35d4ac.png",
-    "static/media/fondo3.jpg": "/carolinaab.github.io/static/media/fondo3.7b5acbbd.jpg",
-    "static/media/foto-caro.jpg": "/carolinaab.github.io/static/media/foto-caro.ea7ba89d.jpg",
-    "static/media/labcar.jpg": "/carolinaab.github.io/static/media/labcar.8f66422e.jpg",
-    "static/media/logo.svg": "/carolinaab.github.io/static/media/logo.5d5d9eef.svg",
-    "static/media/logo_caro-01.png": "/carolinaab.github.io/static/media/logo_caro-01.c96fb021.png",
-    "static/media/pandemonium.png": "/carolinaab.github.io/static/media/pandemonium.875f0f7f.png"
+    "main.css": "/portafolio/static/css/main.5f361e03.chunk.css",
+    "main.js": "/portafolio/static/js/main.50559ed3.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.50559ed3.chunk.js.map",
+    "runtime-main.js": "/portafolio/static/js/runtime-main.d29b2e7e.js",
+    "runtime-main.js.map": "/portafolio/static/js/runtime-main.d29b2e7e.js.map",
+    "static/js/2.9681c2b5.chunk.js": "/portafolio/static/js/2.9681c2b5.chunk.js",
+    "static/js/2.9681c2b5.chunk.js.map": "/portafolio/static/js/2.9681c2b5.chunk.js.map",
+    "index.html": "/portafolio/index.html",
+    "precache-manifest.80c8e18c1090099d90e5ee1ecab991b0.js": "/portafolio/precache-manifest.80c8e18c1090099d90e5ee1ecab991b0.js",
+    "service-worker.js": "/portafolio/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/portafolio/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.9681c2b5.chunk.js.LICENSE.txt": "/portafolio/static/js/2.9681c2b5.chunk.js.LICENSE.txt",
+    "static/media/data-lovers.png": "/portafolio/static/media/data-lovers.9e35d4ac.png",
+    "static/media/fondo3.jpg": "/portafolio/static/media/fondo3.7b5acbbd.jpg",
+    "static/media/foto-caro.jpg": "/portafolio/static/media/foto-caro.ea7ba89d.jpg",
+    "static/media/labcar.jpg": "/portafolio/static/media/labcar.8f66422e.jpg",
+    "static/media/logo.svg": "/portafolio/static/media/logo.5d5d9eef.svg",
+    "static/media/logo_caro-01.png": "/portafolio/static/media/logo_caro-01.c96fb021.png",
+    "static/media/pandemonium.png": "/portafolio/static/media/pandemonium.875f0f7f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4b6c1507.js",
+    "static/js/runtime-main.d29b2e7e.js",
     "static/js/2.9681c2b5.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.0d25b6c0.chunk.js"
+    "static/js/main.50559ed3.chunk.js"
   ]
 }
