@@ -68,7 +68,7 @@ export const Landing = () => {
                     <Typography variant="body1">Asi como habilidades blandas en las cuales trabajo día con día</Typography>
                     <br/>
                     <Typography variant="body1" style={{color:"#f7484e", letterSpacing:1}}>
-                      <strong>Trabajo en equipo, Metodologia Agile, SCRUM, Growth Mindset, Autoaprendizaje, Feedback.</strong>
+                      <strong>Trabajo en equipo, Metodología Agile, SCRUM, Growth Mindset, Autoaprendizaje, Feedback.</strong>
                     </Typography>
                     </Grid>
                     </Grid>
