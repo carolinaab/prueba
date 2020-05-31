@@ -9,7 +9,7 @@ const CardProject = ({ projectImages }) => {
     const classes = useStyles()
     return (
         projectImages.map(image => (
-            <Grid item xs={12} md={6} key={image.title} >
+            <Grid item xs={12} md={6} key={image.id} >
                 <Card className={classes.card}>
                     <Grid container
                         // focusRipple
@@ -25,7 +25,7 @@ const CardProject = ({ projectImages }) => {
                                 backgroundImage: `url(${image.url})`,
                             }}
                         />
-                        <span className={classes.imageBackdrop}> holla</span>
+                        <span className={classes.imageBackdrop}></span>
 
                         <Grid container justify="center" alignItems="center">
                             {
@@ -83,7 +83,6 @@ const CardProject = ({ projectImages }) => {
 
                         <Typography variant="body1" >
                             {image.description}
-                            {image.figma}
                         </Typography>
                     </CardContent>
 

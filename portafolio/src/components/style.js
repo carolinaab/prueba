@@ -27,7 +27,7 @@ export const useStyles = makeStyles(theme => ({
     shadowPrincipal: {
         position: 'absolute',
         width: '100%',
-        height: '100%',
+        height: '100vh',
         background: 'rgba(28,28,28,0.8)',
         zIndex: 1
     },
@@ -131,11 +131,14 @@ export const useStyles = makeStyles(theme => ({
     imageTitle: {
         position: 'relative',
         padding: `${theme.spacing(2)}px ${theme.spacing(4)}px ${theme.spacing(1) + 6}px`,
+        fontSize:20,
+        fontWeight:400,
+
     },
     imageMarked: {
         height: 3,
         width: 18,
-        backgroundColor: theme.palette.common.white,
+        backgroundColor: "#f7484e",
         position: 'absolute',
         bottom: -2,
         left: 'calc(50% - 9px)',

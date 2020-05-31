@@ -60,15 +60,15 @@ export const Landing = () => {
                     <Grid item xs={10}>
                     <Typography variant="body1">He trabajado con tecnologías como: </Typography>
                     <br/>
-                    <Typography variant="body1">
-                      <strong>Javascript, HTML, Node.js, React, Firebase, CSS3, Git</strong>
+                    <Typography variant="body1" style={{color:"#f7484e", letterSpacing:1}}>
+                      <strong>Javascript, HTML, Node.js, React, Firebase, CSS3, Git.</strong>
                     </Typography>
                     </Grid>
                     <Grid item xs={10}>
                     <Typography variant="body1">Asi como habilidades blandas en las cuales trabajo día con día</Typography>
                     <br/>
-                    <Typography>
-                      <strong>Trabajo en equipo, Metodologia Agile, SCRUM, Growth Mindset, Autoaprendizaje, Feedback</strong>
+                    <Typography variant="body1" style={{color:"#f7484e", letterSpacing:1}}>
+                      <strong>Trabajo en equipo, Metodologia Agile, SCRUM, Growth Mindset, Autoaprendizaje, Feedback.</strong>
                     </Typography>
                     </Grid>
                     </Grid>
@@ -121,13 +121,12 @@ export const Landing = () => {
                                         <Typography align="left" variant="body1"><LinkedInIcon />&nbsp;Carolina Méndez</Typography>
                                         <Typography align="left" variant="body1"><PhoneAndroidIcon/>&nbsp;5580867630</Typography>
                                         <Typography  align="left" variant="body1"><EmailIcon/>&nbsp;tau_karo@hotmail.com</Typography>
+                                        <Typography align="left"className={classes.cv}> <a target="_blank" href="https://drive.google.com/file/d/1KxgjDPiBlo7cS8Rk6ewIK-9jdu-i0g-w/view?usp=sharing">Ver CV</a></Typography>
                                  </Grid>
                                 </Grid>
                             </Paper>
                         </Grid>
-                        <Grid item xs={11} md={8} >
-                           <Typography className={classes.cv}> <a target="_blank" href="https://drive.google.com/file/d/1KxgjDPiBlo7cS8Rk6ewIK-9jdu-i0g-w/view?usp=sharing">Ver CV</a></Typography>
-                            </Grid>
+                       
                     </Grid>
 
                 </Grid>
