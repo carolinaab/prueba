@@ -29,11 +29,11 @@ export const projectImages = [
     },
       {
         url: require('../assets/between.png'),
-        // title: 'Github',
-        link: 'Ver',
+        title: 'Github',
+        // link: 'Ver',
         width: '100%',
         description:"Proyecto en etapa de diseño. Red social para niños la cual búsca conectarlos, para compartir fotos, videos o tareas pendientes",
-        page:'https://docs.google.com/document/d/1ReufIWDmFXUDYAJKkGMwoDeC10AIX0jyx0r89l37AnQ/edit'
-        // github:"https://github.com/carolinaab/MEX-Data-Lovers-008"
+        // page:'https://docs.google.com/document/d/1ReufIWDmFXUDYAJKkGMwoDeC10AIX0jyx0r89l37AnQ/edit'
+        github:"https://github.com/carolinaab/Between-Friends"
     },
 ]

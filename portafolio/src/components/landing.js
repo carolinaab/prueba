@@ -108,7 +108,7 @@ export const Landing = () => {
                 </Grid>
                 <Grid item xs={12} md={6}>
                     <Grid container justify="center" >
-                        <Grid item xs={11} md={8} >
+                        <Grid item xs={12} md={10} lg={8}>
                             <Paper className={classes.paper} elevation={8}>
                                 <Grid container justify="center" alignItems="center" spacing={1}>
                                     <Grid item xs={12} sm={4} style={{borderRight:"2px solid #f7484e"}}>

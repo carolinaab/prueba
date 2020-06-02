@@ -29,7 +29,7 @@ const CardProject = ({ projectImages }) => {
 
                         <Grid container justify="center" alignItems="center">
                             {
-                                image.github ?
+                                image.link ?
                                     <Fragment>
                                         <Grid item xs={6} >
                                             <a target="_blank" href={image.github} className={classes.link}>
@@ -62,14 +62,14 @@ const CardProject = ({ projectImages }) => {
                                     </Fragment>
                                     :
                                     <Grid item xs={12}>
-                                        <a target="_blank" href={image.page} className={classes.link}>
+                                        <a target="_blank" href={image.github} className={classes.link}>
                                             <span className={classes.imageButton}>
                                                 <Typography
                                                     component="span"
                                                     variant="subtitle1"
                                                     color="inherit"
                                                     className={classes.imageTitle}  >
-                                                    {image.link}
+                                                    {image.title}
                                                     <span className={classes.imageMarked} />
                                                 </Typography>
                                             </span>

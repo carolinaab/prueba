@@ -138,7 +138,7 @@ export const useStyles = makeStyles(theme => ({
     imageMarked: {
         height: 3,
         width: 18,
-        backgroundColor: "#f7484e",
+        backgroundColor: "white",
         position: 'absolute',
         bottom: -2,
         left: 'calc(50% - 9px)',
