@@ -15,7 +15,7 @@ const CardProject = ({ projectImages }) => {
                         // focusRipple
                         key={image.title}
                         className={classes.image}
-                        focusVisibleClassName={classes.focusVisible}
+                        // focusvisibleclassName={classes.focusVisible}
                         style={{
                             width: image.width,
                         }} >
@@ -28,9 +28,7 @@ const CardProject = ({ projectImages }) => {
                         <span className={classes.imageBackdrop}></span>
 
                         <Grid container justify="center" alignItems="center">
-                            {
-                                image.link ?
-                                    <Fragment>
+                            <Fragment>
                                         <Grid item xs={6} >
                                             <a target="_blank" href={image.github} className={classes.link}>
                                                 <span className={classes.imageButton}>
@@ -60,22 +58,9 @@ const CardProject = ({ projectImages }) => {
                                             </a>
                                         </Grid>
                                     </Fragment>
-                                    :
-                                    <Grid item xs={12}>
-                                        <a target="_blank" href={image.github} className={classes.link}>
-                                            <span className={classes.imageButton}>
-                                                <Typography
-                                                    component="span"
-                                                    variant="subtitle1"
-                                                    color="inherit"
-                                                    className={classes.imageTitle}  >
-                                                    {image.title}
-                                                    <span className={classes.imageMarked} />
-                                                </Typography>
-                                            </span>
-                                        </a>
-                                </Grid>
-                            }
+                                
+                                    
+                            
                         </Grid>
 
                     </Grid>

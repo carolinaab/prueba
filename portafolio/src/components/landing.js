@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Grid, Typography, Box, Paper} from '@material-ui/core'
 import { useStyles } from './style'
 import Navbar from './navbar'
@@ -76,7 +76,7 @@ export const Landing = () => {
                 <Grid item xs={12} md={6}>
                     <Grid container justify="center" alignItems="center" className={classes.aboutPhoto}>
                         <Grid item xs={12} >
-                            <img className={classes.foto} src={photo} />
+                            <img className={classes.foto} src={photo} alt="imagen proyecto"/>
                         </Grid>
 
                     </Grid>
@@ -88,6 +88,7 @@ export const Landing = () => {
                 <Box p={3}>
                     <Grid container spacing={2}>
                         <Card
+        
                             projectImages={projectImages}
                         />
                     </Grid>
