@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1a5d01d48399515c0da9a47fd5f7a12",
+    "revision": "b13c4ec2abd2bbd50950b1ab41810009",
     "url": "/portafolio/index.html"
   },
   {
-    "revision": "7d052247cafd6578c301",
+    "revision": "3b0291d9cfd66324a5f6",
     "url": "/portafolio/static/css/main.523f09c5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portafolio/static/js/2.07a78e01.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7d052247cafd6578c301",
-    "url": "/portafolio/static/js/main.dd4d4744.chunk.js"
+    "revision": "3b0291d9cfd66324a5f6",
+    "url": "/portafolio/static/js/main.2ff64bd9.chunk.js"
   },
   {
     "revision": "8de80431b645f6e2f0b8",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portafolio/static/media/foto-caro.ea7ba89d.jpg"
   },
   {
-    "revision": "f5de4b2c111973b21f83994d85f66fd7",
-    "url": "/portafolio/static/media/image.f5de4b2c.png"
+    "revision": "de78ac8daff39541489ca73210a554c1",
+    "url": "/portafolio/static/media/image.de78ac8d.png"
   },
   {
     "revision": "8f66422ea077a0b735dd9acd703ca0e9",
