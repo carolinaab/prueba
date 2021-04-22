@@ -122,7 +122,7 @@ export const Landing = () => {
                                         <Typography align="left" variant="body1"><LinkedInIcon />&nbsp;Carolina Méndez</Typography>
                                         <Typography align="left" variant="body1"><PhoneAndroidIcon/>&nbsp;5580867630</Typography>
                                         <Typography  align="left" variant="body1"><EmailIcon/>&nbsp;tau_karo@hotmail.com</Typography>
-                                        <Typography align="left"className={classes.cv}> <a target="_blank" href="https://drive.google.com/file/d/1KxgjDPiBlo7cS8Rk6ewIK-9jdu-i0g-w/view?usp=sharing">Ver CV</a></Typography>
+                                        <Typography align="left"className={classes.cv}> <a target="_blank" href="https://drive.google.com/file/d/1DyHjFZZPOYNOc5HGXP_2LmG_am_2bYib/view?usp=sharing">Ver CV</a></Typography>
                                  </Grid>
                                 </Grid>
                             </Paper>
